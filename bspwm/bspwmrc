@@ -49,6 +49,7 @@ bspc config gapless_monocle true
 bspc config paddingless_monocle true
 bspc config single_monocle false
 bspc config focus_follows_pointer false
+bspc config ignore_ewmh_focus true
 
 ## Window rules ----------------------------------------------#
 
