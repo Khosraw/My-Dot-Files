@@ -1,0 +1,9 @@
+id = [token id]
+hosts = ["localhost:6600"]
+
+[format]
+details = "Title: $title | Album: $album | Genre: $genre 🎵"
+state = "Artist: $artist | Year: $date 🎤"
+timestamp = "left"
+large_image = "apple-music-note"
+large_text = "Music"
