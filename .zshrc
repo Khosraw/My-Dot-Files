@@ -118,11 +118,14 @@ alias gp='git push origin master'
 
 alias update='paru'
 alias fm6000='perl fm6000 -c random -r'
+alias beathazard='cd Downloads/Apps/BH/IGG-BeatHazard && wine BeatHazard.exe'
+alias minecraft='java -jar /home/khosraw/TLauncher-2.83.jar'
 alias intellij='export _JAVA_AWT_WM_NONREPARENTING=1 & /usr/bin/idea %f && disown'
+alias android-studio='export _JAVA_AWT_WM_NONREPARENTING=1 & android-studio'
 alias spotify='LD_PRELOAD=/usr/local/lib/spotify-adblock.so spotify'
 alias youtube-dl='yt-dlp'
 
-export PATH="$PATH:/root/.local/bin" && export PATH="$PATH:/home/khosraw/.local/bin" && export SPOTIPY_CLIENT_ID=[client_id] && export SPOTIPY_CLIENT_SECRET=[secret_key] && export QT_QPA_PLATFORMTHEME=qt5ct
+export PATH="$PATH:/root/.local/bin" && export PATH="$PATH:/home/khosraw/.local/bin" && export SPOTIPY_CLIENT_ID=6ae0ea61919b4eb5a03ab2935e89655f && export SPOTIPY_CLIENT_SECRET=f5c59c38dac1417cae38168eaae1885b && export QT_QPA_PLATFORMTHEME=qt5ct
 
 #  ____ _____
 # |  _ \_   _|  Derek Taylor (DistroTube)
