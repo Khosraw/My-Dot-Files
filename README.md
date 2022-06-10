@@ -31,7 +31,7 @@
 - glava
 - sxhkd
 - rofi
-- picom
+- picom (Jonaburg Fork)
 - feh
 - vim
 - zsh
@@ -46,5 +46,7 @@
 - xdo
 - redshift
 - possibly more...
+
+**Bug:** Polybar will be underneath Glava unless you first open a terminal to `xdo raise` Polybar.
 
 ### If you like it, leave it a star! :)
