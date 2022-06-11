@@ -4,6 +4,9 @@
 
 **Warning**: If you don't know how any of the configuration works, don't use it. Use at your own risk!
 
+Configurations were built off of the BSPWM configuration that came with Archcraft. For that reason this repository has a GNU license.
+https://archcraft.io
+
 ## Things Included
 
 - NCMPCPP Config
