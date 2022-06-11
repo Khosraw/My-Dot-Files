@@ -46,6 +46,8 @@
 - xdo
 - possibly more...
 
-**Bug:** Polybar will be underneath Glava unless you first open a terminal to `xdo raise` Polybar.
+**Bugs:** 
+- Polybar will be underneath GLava unless you first open a terminal to `xdo raise` Polybar.
+- The Polybar tray will always remain underneath GLava so you cannot interact with it. I can't seem to figure out a way to raise it over GLava.
 
 ### If you like it, leave it a star! :)
