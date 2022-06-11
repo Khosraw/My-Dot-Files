@@ -1,6 +1,7 @@
 # My-Dot-Files
 
-![cover](https://user-images.githubusercontent.com/53713571/172721880-4eef7943-ea72-4072-a266-f85f308c1612.png)
+![cover](https://user-images.githubusercontent.com/53713571/173201005-47fb2ca2-51a0-4ad8-bb38-e209ee523ae6.png)
+
 
 **Warning**: If you don't know how any of the configuration works, don't use it. Use at your own risk!
 
