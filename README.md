@@ -28,6 +28,7 @@ https://archcraft.io
 - spotify_dl `pip install spotify_dl` (Only if you plan on downloading music -> make sure you are legally allowed to do so through Spotify Premium)
 - alacritty
 - bspwm
+- all themes and icons included in the `.xsettingsd` file
 - mpd
 - discord-mpd-rpc
 - discord-rpc
