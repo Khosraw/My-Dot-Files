@@ -20,8 +20,9 @@
 - .zshrc
 - PICOM Config
 
-## Packages Needed
+## Packages Needed/You should probably get...
 - ncmpcpp
+- spotify_dl `pip install spotify_dl` (Only if you plan on downloading music -> make sure you are legally allowed to do so through Spotify Premium)
 - alacritty
 - bspwm
 - mpd
