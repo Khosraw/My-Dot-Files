@@ -12,7 +12,7 @@
 - Picom Config
 - Rofi Launcher Configs
 - Discord-MPD-RPC Config
-- Glava Config
+- GLava Config
 - SXHKD Config
 - Wallpaper & Feh Config
 - Vim Config
