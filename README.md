@@ -44,7 +44,6 @@
 - starship
 - wmname
 - xdo
-- redshift
 - possibly more...
 
 **Bug:** Polybar will be underneath Glava unless you first open a terminal to `xdo raise` Polybar.
