@@ -119,14 +119,14 @@ alias gp='git push origin master'
 alias update='paru'
 alias fm6000='perl fm6000 -c random -r'
 alias beathazard='cd Downloads/Apps/BH/IGG-BeatHazard && wine BeatHazard.exe'
-alias minecraft='java -jar /home/khosraw/TLauncher-2.83.jar'
+alias minecraft='java -jar /home/khosraw/TLauncher-2.86.jar'
 alias intellij='export _JAVA_AWT_WM_NONREPARENTING=1 & /usr/bin/idea %f && disown'
 alias android-studio='export _JAVA_AWT_WM_NONREPARENTING=1 & android-studio'
 alias spotify='LD_PRELOAD=/usr/local/lib/spotify-adblock.so spotify'
 alias youtube-dl='yt-dlp'
 
-export PATH="$PATH:/root/.local/bin" && export PATH="$PATH:/home/khosraw/.local/bin" && export SPOTIPY_CLIENT_ID=[spotify_client_id] && export SPOTIPY_CLIENT_SECRET=[spotify_client_secret_key] && export QT_QPA_PLATFORMTHEME=qt5ct
-
+export PATH="$PATH:/root/.local/bin" && export PATH="$PATH:/home/khosraw/.local/bin" && export SPOTIPY_CLIENT_ID=[client_id] && export SPOTIPY_CLIENT_SECRET=[client_secret_key] && export QT_QPA_PLATFORMTHEME=qt5ct
+export CHROME_EXECUTABLE=/usr/bin/chromium
 #  ____ _____
 # |  _ \_   _|  Derek Taylor (DistroTube)
 # | | | || |    http://www.youtube.com/c/DistroTube
@@ -140,7 +140,6 @@ export HISTORY_IGNORE="(ls|cd|pwd|exit|sudo reboot|history|cd -|cd ..)"
 export EDITOR="emacsclient -t -a ''"              # $EDITOR use Emacs in terminal
 export VISUAL="emacsclient -c -a emacs"           # $VISUAL use Emacs in GUI mode
 export _JAVA_AWT_WM_NONREPARENTING=1
-export PATH="$PATH:/root/.local/bin" && export PATH="$PATH:/home/khosraw/.local/bin" && export SPOTIPY_CLIENT_ID=6ae0ea61919b4eb5a03ab2935e89655f && export SPOTIPY_CLIENT_SECRET=f5c59c38dac1417cae38168eaae1885b && export QT_QPA_PLATFORMTHEME=qt5ct
 
 ### SET MANPAGER
 ### Uncomment only one of these!
