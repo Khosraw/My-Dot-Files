@@ -26,6 +26,7 @@ https://archcraft.io
 
 ## Packages Needed/You should probably get...
 - ncmpcpp
+- sweet-icons
 - spotify_dl `pip install spotify_dl` (Only if you plan on downloading music -> make sure you are legally allowed to do so through Spotify Premium)
 - alacritty
 - bspwm
