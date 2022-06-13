@@ -120,6 +120,7 @@ for i in ${settings[@]}; do
 bspc rule -a vlc desktop='^7' follow=on focus=on
 bspc rule -a Io.github.celluloid_player.Celluloid desktop='^7' follow=on focus=on
 bspc rule -a Audacity desktop='^7' follow=on focus=on 
+bspc rule -a MPlayer desktop='^7' follow=on focus=on
 
 # 9 > productivity
 bspc rule -a Blanket desktop='^9' follow=on focus=on
@@ -208,7 +209,6 @@ exec xdo raise -N "Polybar" &
 # exec minecraft-launcher &
 # exec compton &
 exec picom --experimental-backends &
-exec redshift &
 exec premid &
 exec discord &
 exec mpd &
