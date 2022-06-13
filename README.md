@@ -14,6 +14,7 @@ https://archcraft.io
 - Alacritty Config
 - BSPWM Config
 - Picom Config
+- Ranger Config
 - Rofi Launcher Configs
 - Discord-MPD-RPC Config
 - GLava Config
@@ -27,6 +28,7 @@ https://archcraft.io
 ## Packages Needed/You should probably get...
 - ncmpcpp
 - sweet-icons
+- ranger
 - spotify_dl `pip install spotify_dl` (Only if you plan on downloading music -> make sure you are legally allowed to do so through Spotify Premium)
 - alacritty
 - bspwm
