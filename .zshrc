@@ -268,6 +268,7 @@ up () {
 }
 
 # vim and emacs
+alias vim="nvim"
 alias em="/usr/bin/emacs -nw"
 alias emacs="emacsclient -c -a 'emacs'"
 alias doomsync="~/.emacs.d/bin/doom sync"
@@ -402,3 +403,5 @@ fi
 eval "$(starship init zsh)"
 
 export PATH=$PATH:/home/khosraw/.spicetify
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
