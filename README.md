@@ -20,7 +20,7 @@ https://archcraft.io
 - GLava Config
 - SXHKD Config
 - Wallpaper & Feh Config
-- Vim Config
+- NeoVim Config
 - .xsettingsd
 - .zshrc
 - PICOM Config
@@ -42,7 +42,8 @@ https://archcraft.io
 - rofi
 - picom (Jonaburg Fork)
 - feh
-- vim
+- neovim
+- python-neovim
 - zsh
 - xorg
 - spotify
