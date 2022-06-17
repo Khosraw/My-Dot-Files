@@ -3,7 +3,7 @@
 
 Net/ThemeName "Cyberpunk"
 Net/IconThemeName "candy-icons"
-Gtk/CursorThemeName "LyraB"
+Gtk/CursorThemeName "LyraP"
 Net/EnableEventSounds "0"
 Net/EnableInputFeedbackSounds "0"
 Xft/DPI "-1"
