@@ -86,7 +86,13 @@ XF86AudioMute
 	
 # Music control
 XF86Audio{Next,Prev,Play,Stop}
-	mpc {next,prev,toggle,stop}
+    playerctl --player=spotify,%any {next,previous,play-pause,pause}
+#	playerctl --player=vlc,spotify {next,previous,play-pause,pause}
+
+# Audio output device control
+super + shift + XF86Audio{RaiseVolume,LowerVolume}
+    pacmd set-default-sink {0,1}
+    
 
 ##---------- Bspwm ----------##
 

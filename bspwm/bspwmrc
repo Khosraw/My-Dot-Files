@@ -64,22 +64,28 @@ bspc rule -a Alacritty desktop='^2' follow=on focus=on
 bspc rule -a Xfce4-terminal desktop='^2' follow=on focus=on
 bspc rule -a code-oss desktop='^2' follow=on focus=on
 bspc rule -a Code desktop='^2' follow=on focus=on
+bspc rule -a jetbrains-studio desktop='^2' follow=on focus=on
+bspc rule -a "Code - Insiders" desktop='^2' follow=on focus=on
 
 # 1 > web
 bspc rule -a Brave-browser desktop='^1' follow=on focus=on
+bspc rule -a Brave-browser-nightly desktop='^1' follow=on focus=on
 bspc rule -a qutebrowser desktop='^1' follow=on focus=on
 bspc rule -a Vivaldi-stable desktop='^1' follow=on focus=on
 bspc rule -a firefox desktop='^1' follow=on focus=on
 bspc rule -a chromium desktop='^1' follow=on focus=on
 bspc rule -a notion-app-enhanced desktop='^1' follow=on focus=on
+bspc rule -a Microsoft-edge-dev desktop='^1' follow=on focus=on
 
 # 6 > file
 bspc rule -a Pcmanfm desktop='^6' follow=on focus=on
 bspc rule -a Thunar desktop='^6' follow=on focus=on
 bspc rule -a qBittorrent desktop='^6'
 
-# 3 > Discord
+# 3 > Messaging
 bspc rule -a discord desktop='^3' follow=off focus=off
+bspc rule -a BlueMail desktop='^3' follow=off focus=off
+bspc rule -a Slack desktop='^3' follow=off focus=off
 
 # 5 > MC
 bspc rule -a Minecraft Launcher desktop='^5' follow=off focus=on
@@ -123,6 +129,7 @@ bspc rule -a Audacity desktop='^7' follow=on focus=on
 bspc rule -a MPlayer desktop='^7' follow=on focus=on
 
 # 9 > productivity
+bspc rule -a Trello desktop='^9' follow=on focus=on
 bspc rule -a Blanket desktop='^9' follow=on focus=on
 bspc rule -a pomotroid desktop='^9' follow=on focus=on 
 
@@ -210,7 +217,7 @@ exec xdo raise -N "Polybar" &
 # exec compton &
 exec picom --experimental-backends &
 exec premid &
-exec discord &
+exec discord-canary &
 exec mpd &
 exec unclutter -idle 10 -root &
 

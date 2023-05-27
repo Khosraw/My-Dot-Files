@@ -1,5 +1,7 @@
 ## Copyright (C) 2020-2022 Aditya Shakya <adi1090x@gmail.com>
 ## Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
+##
+## Keybindings config for Archcraft's BSPWM
 
 ##---------- Keybindings for bspwm ----------##
 
@@ -9,11 +11,11 @@ super + Return
 
 # Terminal (floating)
 super + shift + Return
-	bspterm -f
+	bspterm --float
 
 # Terminal (fullscreen)
 super + t
-	bspterm -s	
+	bspterm --full
 
 ##---------- Rofi Launcher & Menus ----------##
 
@@ -83,16 +85,13 @@ XF86Audio{RaiseVolume,LowerVolume}
 
 XF86AudioMute
 	volume --toggle
+
+XF86AudioMicMute
+	volume --toggle-mic
 	
 # Music control
 XF86Audio{Next,Prev,Play,Stop}
-    playerctl --player=spotify,%any {next,previous,play-pause,pause}
-#	playerctl --player=vlc,spotify {next,previous,play-pause,pause}
-
-# Audio output device control
-super + shift + XF86Audio{RaiseVolume,LowerVolume}
-    pacmd set-default-sink {0,1}
-    
+	mpc {next,prev,toggle,stop}
 
 ##---------- Bspwm ----------##
 
@@ -113,8 +112,8 @@ ctrl + shift + {q,r}
 	bspc {quit,wm -r}
 	
 # Split horizontal, vertical or cancel
-#super + {h,v,q}
-#	bspc node -p {east,south,cancel}
+super + {h,v,q}
+	bspc node -p {east,south,cancel}
 
 # Preselect the ratio
 super + ctrl + {1-9}
@@ -139,7 +138,7 @@ super + ctrl + {m,x,y,z}
 	bspc node -g {marked,locked,sticky,private}
 
 # Send the window to another edge of the screen
-super + {_,shift + }{h,j,k,l}
+super + {_,shift + }{Left,Down,Up,Right}
 	bspc node -{f,s} {west,south,north,east}
 
 # Change focus to next window, including floating window
@@ -147,7 +146,7 @@ alt + {_,shift + }Tab
 	bspc node -f {next.local,prev.local}
 
 # Switch workspace
-ctrl + alt + {h,l}
+ctrl + alt + {Left,Right}
 	bspc desktop -f {prev.local,next.local}
 
 # Switch to last opened workspace
@@ -155,23 +154,23 @@ super + {Tab,grave}
 	bspc {node,desktop} -f last
 
 # Send focused window to another workspace
-super + {_,shift + }{1-9}
-	bspc {desktop -f,node -d} '^{1-9}'
+super + {_,shift + }{1-8}
+	bspc {desktop -f,node -d} '^{1-8}'
 
 # Expanding windows
-super + control + {h,l,k,j}
+super + control + {Left,Right,Up,Down}
 	bspc node -z {left -20 0,right 20 0,top 0 -20,bottom 0 20}
 	
 ## Shrinking windows
-super + alt + {h,l,k,j}
+super + alt + {Left,Right,Up,Down}
 	bspc node -z {left 20 0,right -20 0,top 0 20,bottom 0 -20}
 	
 ## Move floating windows
-alt + shift + {h,j,k,l}
+alt + shift + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
 
 # Hide/Unhide Window
 super + shift + i
-	winmask		
+	bspwinmask		
 
 ##---------- EOF ----------##
