@@ -130,7 +130,7 @@ watchforcommit () {
   inotifywait -r -q -m -e CLOSE_WRITE --format="git commit -m 'autocommit on change' %w" $dir | sh
 }
 
-export PATH="$PATH:/root/.local/bin" && export PATH="$PATH:/home/khosraw/.local/bin" && export SPOTIPY_CLIENT_ID=9196cab50dab45299586a2b872289041 && export SPOTIPY_CLIENT_SECRET=ae6b2c54730e4deca89bdf4a76ff3d73 && export QT_QPA_PLATFORMTHEME=qt5ct
+export PATH="$PATH:/root/.local/bin" && export PATH="$PATH:/home/khosraw/.local/bin" && export SPOTIPY_CLIENT_ID=xxx && export SPOTIPY_CLIENT_SECRET=xxx && export QT_QPA_PLATFORMTHEME=qt5ct
 export CHROME_EXECUTABLE=/usr/bin/chromium
 #  ____ _____
 # |  _ \_   _|  Derek Taylor (DistroTube)
